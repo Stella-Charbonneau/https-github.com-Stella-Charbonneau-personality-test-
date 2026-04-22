@@ -12,113 +12,113 @@ quiz = [
     {
         "question": "Where do you want to live in five years?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "A large, busy city.",
+            "B": "A small, mysterious coastal town.",
+            "C": "A cabin in the woods.",
+            "D": "'Nowehere, I want to move around for a bit.'"
         }
     },
     {
-        "question": "Pick a color:",
+        "question": "Where is your dream vacation?",
         "answers": {
-            "A": "Blue",
-            "B": "Red",
-            "C": "Green",
-            "D": "Purple"
+            "A": "A touristy metropolitan area with fine dining and historical sites.",
+            "B": "A cozy winter cabin with a group of people.",
+            "C": "A book on a beach recliner near the shore.",
+            "D": "An expensive mountain or tropical resort."
         }
     }
      {
-        "question": "What's your ideal weekend?",
+        "question": "You have a bit of extra money to spend, what will you use it for?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'Maybe some new clothes, high end one if I can afford them.'",
+            "B": "'Gift shopping, maybe pay off some bills.'",
+            "C": "'I think I'll hang on to my money for a bit and save up.'",
+            "D": "'Tickets for travel!"
         }
     }
      {
-        "question": "What's your ideal weekend?",
+        "question": "You have an exam. How are you preparing?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "Start preparing weeks before hand with flashcards and loads of caffine.",
+            "B": "Set up a small study group and work together.",
+            "C": "Start studying a few days in advance, you already know most of the material.",
+            "D": "Ask the professor and your classmates what you should look at and focas on those topics."
         }
     }
      {
-        "question": "What's your ideal weekend?",
+        "question": "What's your drink of choice?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'Coffee, coffee and more coffee.'",
+            "B": "'Just tea!'",
+            "C": "'I feel like I should drink more water.'",
+            "D": "'Any kind of energy drink.'"
         }
     }
      {
-        "question": "What's your ideal weekend?",
+        "question": "How do you distress after a long day?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'I dont, my body hasen't left fight or flight in three years.'",
+            "B": "'Rest, chat with my friends, maybe shower.",
+            "C": "'Game for a bit and watch a movie with snacks.'",
+            "D": "'Going out clubbing!'"
         }
     },
      {
-        "question": "What's your ideal weekend?",
+        "question": "Where are you on Friday night?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'Studying, I need to lock in.'",
+            "B": "'Grabbing dinner with my friends and going to an event'",
+            "C": "'Listening to music and drawing or reading.'",
+            "D": "'Partying.'"
         }
     }
      {
-        "question": "What's your ideal weekend?",
+        "question": "What's fantasy creature would you be?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'Deffinetly a vampire, they live forever.'",
+            "B": "'A forest fairy or gnome.''",
+            "C": "'I'd like to be a mermaid.'",
+            "D": "'100 percent a dragon.'"
         }
     },
      {
-        "question": "What's your ideal weekend?",
+        "question": "How are you spending your sick day?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'It'll be a good chance for me to finsih up some work.'",
+            "B": "'I'm just going to take it easy, maybe work on a project.'",
+            "C": "'I'm going to get some rest and have some soup.'",
+            "D": "'I'm going to focas on getting better, I need to get out of here.'"
         }
     },
      {
-        "question": "What's your ideal weekend?",
+        "question": "How quickly do you pick up new hobbies?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'I'm already busy enough, I don't have time for new hobbies.'",
+            "B": "'I like learning new stuff, I'll usually practice a few times a week'",
+            "C": "'I already love the things I do, I don't need more.'",
+            "D": "'I'll pick up a new activity often and do it for a few weeks.'"
         }
     },
      {
-        "question": "What's your ideal weekend?",
+        "question": "What is your inital reaction upon seeing a ghost?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'Thats not possible, I know theres an explanation.'",
+            "B": "'I know theres a likley explanation, but I'm still terrified.'",
+            "C": "'I mean, nothing really makes sense anyway.'",
+            "D": "'Oh bet. I knew they were real.'"
         }
     },
      {
-        "question": "What's your ideal weekend?",
+        "question": "How do you listen to music?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "'I need specialized playlists for every event.'",
+            "B": "'I like musical playlists and songs that are sentimental.'",
+            "C": "'I listen to whatevers good.'",
+            "D": "'I love listebning to knew stuff, I love a bunch of generes.'"
         }
     },
      {
-        "question": "What's your ideal weekend?",
+        "question": "You have a few minutes until your next activity, how are spending it?",
         "answers": {
             "A": "Reading a book",
             "B": "Going to a party",
@@ -132,5 +132,5 @@ def main():
     "A" == "anxious, competative, ambitous, foward looking"
     "B" == "people orientated, organized, reliable, blunt"
     "C" == "patient, relaxed, empathetic, ceative"
-    "D" == "ambicable, confident, energetic, optimistic"
+    "D" == "ambicable, confident, energetic, adventurous"
 
