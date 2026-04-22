@@ -133,4 +133,3 @@ def main():
     "B" == "people orientated, organized, reliable, blunt"
     "C" == "patient, relaxed, empathetic, ceative"
     "D" == "ambicable, confident, energetic, adventurous"
-
