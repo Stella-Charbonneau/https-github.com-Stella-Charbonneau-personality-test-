@@ -10,7 +10,7 @@ scores = {
 
 quiz = [
     {
-        "question": "What's your ideal weekend?",
+        "question": "Where do you want to live in five years?",
         "answers": {
             "A": "Reading a book",
             "B": "Going to a party",
@@ -27,4 +27,110 @@ quiz = [
             "D": "Purple"
         }
     }
-]
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    }
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    }
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    }
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    }
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+     {
+        "question": "What's your ideal weekend?",
+        "answers": {
+            "A": "Reading a book",
+            "B": "Going to a party",
+            "C": "Exploring nature",
+            "D": "Playing video games"
+        }
+    },
+    ]
+
+def main():
+    "A" == "anxious, competative, ambitous, foward looking"
+    "B" == "people orientated, 
+    "C" ==
+    "D" ==
+
