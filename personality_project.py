@@ -130,7 +130,7 @@ quiz = [
 
 def main():
     "A" == "anxious, competative, ambitous, foward looking"
-    "B" == "people orientated, organized, emotially "
-    "C" == "patient, relaxed, understanding"
-    "D" == "ambicable, confident, energetic"
+    "B" == "people orientated, organized, reliable"
+    "C" == "patient, relaxed, understanding, ceative"
+    "D" == "ambicable, confident, energetic, optimistic"
 
