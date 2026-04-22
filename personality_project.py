@@ -120,10 +120,10 @@ quiz = [
      {
         "question": "You have a few minutes until your next activity, how are spending it?",
         "answers": {
-            "A": "Reading a book",
-            "B": "Going to a party",
-            "C": "Exploring nature",
-            "D": "Playing video games"
+            "A": "Doom scrolling",
+            "B": "Go for a walk",
+            "C": "Just sit and chill",
+            "D": "Find a snack for energy"
         }
     },
     ]
