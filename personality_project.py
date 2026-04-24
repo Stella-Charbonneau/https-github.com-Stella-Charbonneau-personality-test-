@@ -126,10 +126,14 @@ quiz = [
             "D": "Find a snack for energy"
         }
     },
+
+personalities = {
+    "A": "Anxious, competitive, ambitious, forward-looking",
+    "B": "People-oriented, organized, reliable, blunt",
+    "C": "Patient, relaxed, empathetic, creative",
+    "D": "Confident, energetic, adventurous, spontaneous"
+}
     ]
 
 def main():
-    "A" == "anxious, competative, ambitous, foward looking"
-    "B" == "people orientated, organized, reliable, blunt"
-    "C" == "patient, relaxed, empathetic, ceative"
-    "D" == "ambicable, confident, energetic, adventurous"
+ 
