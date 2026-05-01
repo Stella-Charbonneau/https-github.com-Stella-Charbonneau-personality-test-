@@ -2,12 +2,13 @@
 # could do visualizations
 
 def personality_quiz():
-    scores = {
+     scores = {
         "A": 0,
         "B": 0,
         "C": 0,
         "D": 0
     }
+
 
 
 quiz = [
@@ -142,6 +143,13 @@ print("Welcome to The Personality Quiz.")
 print("This test will return a final percentage of personalities 1, 2, 3 and 4 after the final question is complete.")
 
 #display each question and answer choices
+scores = {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0
+    }
+
 
 for i, item in enumerate(quiz, start=1):
     print(f"Question{i}: {item['question']}") #prints actual question text and associated personality type
@@ -163,7 +171,7 @@ print("Final personality percentages")
 
 #AI
 percentages = {}
-for letter, score in scores.item():
+for letter, score in scores.items():
     percentage = (score / all_answers) * 100
     percentages[letter] = percentage
     bar = "#" * round(percentage / 5)   # simple text bar out of 20
