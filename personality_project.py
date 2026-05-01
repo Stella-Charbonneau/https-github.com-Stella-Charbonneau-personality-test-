@@ -2,7 +2,7 @@
 # could do visualizations
 
 def personality_quiz():
-    
+
 scores = {
     "A":0,
     "B":0,
@@ -137,15 +137,15 @@ personalities = {
     "D": "Confident, energetic, adventurous, spontaneous"
 }
 
-print("Welcome to The Personality Quiz. Based on your answers to thirteen different questions, this test will determin what personality traits you have, 
+print("Welcome to The Personality Quiz. Based on your answers to thirteen different questions, this test will determin what personality traits you have,
 returning a final percentage of personalities 1,2, 3 and 4 after the final question is complete.")
 
-#display each question and answer choices 
+#display each question and answer choices
 
 for i in questions: #loops through each question in question list
   print(i["question"}) #prints actual question text and associated personality type
   for answer in i["answers"]
-    print(f"{answers[0]}. {answers[1]}") #print choice label and text 
+    print(f"{answers[0]}. {answers[1]}") #print choice label and text
 
     While True: #while True loop for answers
         answer = input("Your choice (A/B/C/D): ").upper() #allows user to input A, B, C or D as their choice
@@ -157,7 +157,7 @@ for i in questions: #loops through each question in question list
 
             break
         else:
-          print("Bad choice. Choose A, B, C or D") #if answer is not valid 
+          print("Bad choice. Choose A, B, C or D") #if answer is not valid
 
     print()
 
@@ -165,10 +165,10 @@ final_personality = sum(scores.values()) #sum all of the score values
 
 print("Great! Here are your personality percentages!")
 
-for personality, scores in scores.items(): #code determining and returning percentage of personality 
+for personality, scores in scores.items(): #code determining and returning percentage of personality
         percentage = (scores / total_answers) * 100
         print(f"{personality}: {percentage:.1f}%")
 
-            
-      
+            #comment
+
 
