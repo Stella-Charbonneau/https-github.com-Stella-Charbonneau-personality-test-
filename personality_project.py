@@ -146,13 +146,13 @@ print("This test will return a final percentage of personalities 1, 2, 3 and 4 a
 
 #display each question and answer choices
 
-for i in question: #loops through each question in question list
-  print(i[question]) #prints actual question text and associated personality type
-  for answer in i["answers"]:
-    print(f"{answers[0]}. {answers[1]}") #print choice label and text
+for i, item in enumerate(quiz, start=1):
+  print(f"Question{i}: {item['question']}") #prints actual question text and associated personality type
+  for letter, text in item["answers"].items():
+    print(f"{letter}. {text}") #print choice label and text
 
     while True: #while True loop for answers
-        answers = input("Your choice (A/B/C/D): ").upper() #allows user to input A, B, C or D as their choice
+        choice = input("Your choice (A/B/C/D): ").strip().upper() #allows user to input A, B, C or D as their choice
         valid = [answers[0] for answers in i["answers"]] #determins validity if answer inputted is in range
         if answer in valid:
             for answers in i["answers"]:
