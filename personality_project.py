@@ -151,10 +151,11 @@ for i, item in enumerate(quiz, start=1):
     while True: #while True loop for answers
         choice = input("Your choice (A/B/C/D): ").strip().upper() #allows user to input A, B, C or D as their choice
         if choice in item["answers"]: #determins validity if answer inputted is in range
-            scores[choice] += 1
-            break
+         scores[choice] += 1
+         break
+        
         else:
-          print("Bad choice. Choose A, B, C or D") #if answer is not valid
+         print("Bad choice. Choose A, B, C or D") #if answer is not valid
 
     print()
 
