@@ -151,7 +151,7 @@ scores = {
     }
 
 
-for i, item in enumerate(quiz, start=1):
+for i, item in enumerate(quiz, start=1): #AI
     print(f"Question{i}: {item['question']}") #prints actual question text and associated personality type
     for letter, text in item["answers"].items():
         print(f"{letter}. {text}") #print choice label and text
