@@ -147,7 +147,7 @@ print("Welcome to The Personality Quiz. This test will return a final percentage
 #display each question and answer choices
 
 for i in question: #loops through each question in question list
-  print(i["question"]) #prints actual question text and associated personality type
+  print(i[question]) #prints actual question text and associated personality type
   for answer in i["answers"]:
     print(f"{answers[0]}. {answers[1]}") #print choice label and text
 
