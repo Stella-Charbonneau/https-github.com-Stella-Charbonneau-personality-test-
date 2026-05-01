@@ -23,111 +23,111 @@ quiz = [
     },
     {
         "question": "Where is your dream vacation?",
-        "answers": {}
+        "answers": {
             "A": "A touristy metropolitan area with fine dining and historical sites.",
             "B": "A cozy winter cabin with a group of people.",
             "C": "A book on a beach recliner near the shore.",
             "D": "An expensive mountain or tropical resort."
-        ]
+        }
     },
      {
         "question": "You have a bit of extra money to spend, what will you use it for?",
-        "answers": [
+        "answers": {
             "A": "'Maybe some new clothes, high end one if I can afford them.'",
             "B": "'Gift shopping, maybe pay off some bills.'",
             "C": "'I think I'll hang on to my money for a bit and save up.'",
             "D": "'Tickets for travel!"
-       ]
+        }
     },
      {
         "question": "You have an exam. How are you preparing?",
-        "answers": [
+        "answers": {
             "A": "Start preparing weeks before hand with flashcards and loads of caffine.",
             "B": "Set up a small study group and work together.",
             "C": "Start studying a few days in advance, you already know most of the material.",
             "D": "Ask the professor and your classmates what you should look at and focas on those topics."
-        ]
+        }
     },
      {
         "question": "What's your drink of choice?",
-        "answers": [
+        "answers": {
             "A": "'Coffee, coffee and more coffee.'",
             "B": "'Just tea!'",
             "C": "'I feel like I should drink more water.'",
             "D": "'Any kind of energy drink.'"
-        ]
+        }
     },
      {
         "question": "How do you distress after a long day?",
-        "answers": [
+        "answers": {
             "A": "'I dont, my body hasen't left fight or flight in three years.'",
             "B": "'Rest, chat with my friends, maybe shower.",
             "C": "'Game for a bit and watch a movie with snacks.'",
             "D": "'Going out clubbing!'"
-        ]
+        }
     },
      {
         "question": "Where are you on Friday night?",
-        "answers": [
+        "answers": {
             "A": "'Studying, I need to lock in.'",
             "B": "'Grabbing dinner with my friends and going to an event'",
             "C": "'Listening to music and drawing or reading.'",
             "D": "'Partying.'"
-        ]
+        }
     },
      {
         "question": "What's fantasy creature would you be?",
-        "answers": [
+        "answers": {
             "A": "'Deffinetly a vampire, they live forever.'",
             "B": "'A forest fairy or gnome.''",
             "C": "'I'd like to be a mermaid.'",
             "D": "'100 percent a dragon.'"
-        ]
+        }
     },
      {
         "question": "How are you spending your sick day?",
-        "answers": [
+        "answers": {
             "A": "'It'll be a good chance for me to finsih up some work.'",
             "B": "'I'm just going to take it easy, maybe work on a project.'",
             "C": "'I'm going to get some rest and have some soup.'",
             "D": "'I'm going to focas on getting better, I need to get out of here.'"
-        ]
+        }
     },
      {
         "question": "How quickly do you pick up new hobbies?",
-        "answers": [
+        "answers": {
             "A": "'I'm already busy enough, I don't have time for new hobbies.'",
             "B": "'I like learning new stuff, I'll usually practice a few times a week'",
             "C": "'I already love the things I do, I don't need more.'",
             "D": "'I'll pick up a new activity often and do it for a few weeks.'"
-        ]
+        }
     },
      {
         "question": "What is your inital reaction upon seeing a ghost?",
-        "answers": [
+        "answers": {
             "A": "'Thats not possible, I know theres an explanation.'",
             "B": "'I know theres a likley explanation, but I'm still terrified.'",
             "C": "'I mean, nothing really makes sense anyway.'",
             "D": "'Oh bet. I knew they were real.'"
-        ]
+        }
     },
      {
         "question": "How do you listen to music?",
-        "answers": [
+        "answers": {
             "A": "'I need specialized playlists for every event.'",
             "B": "'I like musical playlists and songs that are sentimental.'",
             "C": "'I listen to whatevers good.'",
             "D": "'I love listebning to knew stuff, I love a bunch of generes.'"
-        ]
+        }
     },
      {
         "question": "You have a few minutes until your next activity, how are spending it?",
-        "answers": [
+        "answers": {
             "A": "Doom scrolling",
             "B": "Go for a walk",
             "C": "Just sit and chill",
             "D": "Find a snack for energy"
-        ]
+        }
     }
 ]
 
@@ -148,13 +148,13 @@ print("Welcome to The Personality Quiz. This test will return a final percentage
 
 for i in question: #loops through each question in question list
   print(i["question"]) #prints actual question text and associated personality type
-  for answer in i["answers"]
+  for answer in i["answers"]:
     print(f"{answers[0]}. {answers[1]}") #print choice label and text
 
-    While True: #while True loop for answers
-    answers = input("Your choice (A/B/C/D): ").upper() #allows user to input A, B, C or D as their choice
-    valid = [answers[0] for answers in i["answers"]] #determins validity if answer inputted is in range
-    if answer in valid:
+    while True: #while True loop for answers
+        answers = input("Your choice (A/B/C/D): ").upper() #allows user to input A, B, C or D as their choice
+        valid = [answers[0] for answers in i["answers"]] #determins validity if answer inputted is in range
+        if answer in valid:
             for answers in i["answers"]:
                  if answers[0] == answer:
                       scores[answer[2]] += 1
