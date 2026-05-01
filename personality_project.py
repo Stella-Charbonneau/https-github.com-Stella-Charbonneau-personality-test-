@@ -2,6 +2,7 @@
 # could do visualizations
 
 def personality_quiz():
+ scores = scores
 
  scores = {
     "A":0,
@@ -138,7 +139,7 @@ personalities = {
 }
 
 print(Welcome to The Personality Quiz. Based on your answers to thirteen different questions, this test will determin what personality traits you have,
-returning a final percentage of personalities 1,2, 3 and 4 after the final question is complete.)
+returning a final percentage of personalities 1, 2, 3 and 4 after the final question is complete.)
 
 #display each question and answer choices
 
