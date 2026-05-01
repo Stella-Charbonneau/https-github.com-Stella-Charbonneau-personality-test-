@@ -165,7 +165,8 @@ all_answers = len(quiz)
 print("Final personality percentages")
 
 percentages = {}
-for letter, score in scores 
+for letter, score in scores.item():
+    
 final_personality = sum(scores.values()) #sum all of the score values
 
 print("Great! Here are your personality percentages!")
