@@ -160,7 +160,12 @@ for i, item in enumerate(quiz, start=1):
           print("Bad choice. Choose A, B, C or D") #if answer is not valid
 
     print()
-all answers 
+
+all_answers = len(quiz)
+print("Final personality percentages")
+
+percentages = {}
+for letter, score in scores 
 final_personality = sum(scores.values()) #sum all of the score values
 
 print("Great! Here are your personality percentages!")
