@@ -2,8 +2,7 @@
 # could do visualizations
 
 def personality_quiz():
-
- "scores" == {
+    scores = {
          "A":0,
          "B":0,
          "C":0,
@@ -144,9 +143,9 @@ print("This test will return a final percentage of personalities 1, 2, 3 and 4 a
 #display each question and answer choices
 
 for i, item in enumerate(quiz, start=1):
-  print(f"Question{i}: {item['question']}") #prints actual question text and associated personality type
-  for letter, text in item["answers"].items():
-    print(f"{letter}. {text}") #print choice label and text
+    print(f"Question{i}: {item['question']}") #prints actual question text and associated personality type
+    for letter, text in item["answers"].items():
+        print(f"{letter}. {text}") #print choice label and text
 
     while True: #while True loop for answers
         choice = input("Your choice (A/B/C/D): ").strip().upper() #allows user to input A, B, C or D as their choice
