@@ -153,18 +153,14 @@ for i, item in enumerate(quiz, start=1):
 
     while True: #while True loop for answers
         choice = input("Your choice (A/B/C/D): ").strip().upper() #allows user to input A, B, C or D as their choice
-        valid = [answers[0] for answers in i["answers"]] #determins validity if answer inputted is in range
-        if answer in valid:
-            for answers in i["answers"]:
-                 if answers[0] == answer:
-                      scores[answer[2]] += 1
-
+        if choice in item["answers"]: #determins validity if answer inputted is in range
+            scores[choice] += 1
             break
-    else:
+        else:
           print("Bad choice. Choose A, B, C or D") #if answer is not valid
 
     print()
-
+all answers 
 final_personality = sum(scores.values()) #sum all of the score values
 
 print("Great! Here are your personality percentages!")
