@@ -166,11 +166,11 @@ print("Final personality percentages")
 
 percentages = {}
 for letter, score in scores.item():
-    
-final_personality = sum(scores.values()) #sum all of the score values
+    percentage = (score / total_answers) * 100
+    percentages[letter] = percentage
+    bar = "#" * round(percentage / 5)   # simple text bar out of 20
+    print(f"{letter}: {percentage:5.1f}%  {bar}")
+    print(f"   {personalities[letter]}")
 
-print("Great! Here are your personality percentages!")
-
-for personality, scores in scores.items(): #code determining and returning percentage of personality
-        percentage = (scores / total_answers) * 100
-        print(f"{personality}: {percentage:.1f}%")
+# Run the quiz
+personality_quiz()
