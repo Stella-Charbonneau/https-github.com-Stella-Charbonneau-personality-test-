@@ -163,7 +163,7 @@ print("Final personality percentages")
 #AI
 percentages = {}
 for letter, score in scores.item():
-    percentage = (score / total_answers) * 100
+    percentage = (score / all_answers) * 100
     percentages[letter] = percentage
     bar = "#" * round(percentage / 5)   # simple text bar out of 20
     print(f"{letter}: {percentage:5.1f}%  {bar}")
