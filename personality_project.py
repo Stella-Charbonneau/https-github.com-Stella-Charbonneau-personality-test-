@@ -3,12 +3,12 @@
 
 def personality_quiz():
 
-scores = {
+ scores = {
     "A":0,
     "B":0,
     "C":0,
     "D":0
-}
+ }
 
 quiz = [
     {
@@ -137,20 +137,20 @@ personalities = {
     "D": "Confident, energetic, adventurous, spontaneous"
 }
 
-print("Welcome to The Personality Quiz. Based on your answers to thirteen different questions, this test will determin what personality traits you have,
-returning a final percentage of personalities 1,2, 3 and 4 after the final question is complete.")
+print(Welcome to The Personality Quiz. Based on your answers to thirteen different questions, this test will determin what personality traits you have,
+returning a final percentage of personalities 1,2, 3 and 4 after the final question is complete.)
 
 #display each question and answer choices
 
-for i in questions: #loops through each question in question list
+for i in question: #loops through each question in question list
   print(i["question"}) #prints actual question text and associated personality type
   for answer in i["answers"]
     print(f"{answers[0]}. {answers[1]}") #print choice label and text
 
     While True: #while True loop for answers
-        answer = input("Your choice (A/B/C/D): ").upper() #allows user to input A, B, C or D as their choice
-        valid = [answers[0] for answers in i["answers"]] #determins validity if answer inputted is in range
-        if answer in valid:
+    answers = input("Your choice (A/B/C/D): ").upper() #allows user to input A, B, C or D as their choice
+    valid = [answers[0] for answers in i["answers"]] #determins validity if answer inputted is in range
+    if answer in valid:
             for answers in i["answers"]:
                  if answers[0] == answer:
                       scores[answer[2]] += 1
