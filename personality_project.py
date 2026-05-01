@@ -2,14 +2,13 @@
 # could do visualizations
 
 def personality_quiz():
- scores = "scores"
 
-"scores" == {
-    "A":0,
-    "B":0,
-    "C":0,
-    "D":0
- }
+    scores = {
+         "A":0,
+         "B":0,
+         "C":0,
+         "D":0
+    }
 
 quiz = [
     {
@@ -142,7 +141,8 @@ question = "question"
 answers = "answers"
 scores = "scores"
 
-print("Welcome to The Personality Quiz. This test will return a final percentage of personalities 1, 2, 3 and 4 after the final question is complete.")
+print("Welcome to The Personality Quiz.")
+print("This test will return a final percentage of personalities 1, 2, 3 and 4 after the final question is complete.")
 
 #display each question and answer choices
 
