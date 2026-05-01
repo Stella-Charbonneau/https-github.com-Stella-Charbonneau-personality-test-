@@ -137,9 +137,6 @@ personalities = {
     "D": "Confident, energetic, adventurous, spontaneous"
 }
 
-question = "question"
-answers = "answers"
-scores = "scores"
 
 print("Welcome to The Personality Quiz.")
 print("This test will return a final percentage of personalities 1, 2, 3 and 4 after the final question is complete.")
@@ -164,6 +161,7 @@ for i, item in enumerate(quiz, start=1):
 all_answers = len(quiz)
 print("Final personality percentages")
 
+#AI
 percentages = {}
 for letter, score in scores.item():
     percentage = (score / total_answers) * 100
