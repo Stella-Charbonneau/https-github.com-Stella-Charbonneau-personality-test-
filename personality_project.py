@@ -3,7 +3,7 @@
 
 def personality_quiz():
 
-    scores = {
+ "scores" == {
          "A":0,
          "B":0,
          "C":0,
