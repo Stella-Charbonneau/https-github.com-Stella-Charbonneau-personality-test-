@@ -168,7 +168,3 @@ print("Great! Here are your personality percentages!")
 for personality, scores in scores.items(): #code determining and returning percentage of personality
         percentage = (scores / total_answers) * 100
         print(f"{personality}: {percentage:.1f}%")
-
-            #comment
-
-
