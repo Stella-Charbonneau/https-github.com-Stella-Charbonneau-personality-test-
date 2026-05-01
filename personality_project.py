@@ -14,22 +14,22 @@ def personality_quiz():
 quiz = [
     {
         "question": "Where do you want to live in five years?",
-        "answers": [
+        "answers": {
             "A": "A large, busy city.",
             "B": "A small, mysterious coastal town.",
             "C": "A cabin in the woods.",
             "D": "'Nowehere, I want to move around for a bit.'"
-        ]
+        }
     },
     {
         "question": "Where is your dream vacation?",
-        "answers": [
+        "answers": {}
             "A": "A touristy metropolitan area with fine dining and historical sites.",
             "B": "A cozy winter cabin with a group of people.",
             "C": "A book on a beach recliner near the shore.",
             "D": "An expensive mountain or tropical resort."
         ]
-    }
+    },
      {
         "question": "You have a bit of extra money to spend, what will you use it for?",
         "answers": [
@@ -38,7 +38,7 @@ quiz = [
             "C": "'I think I'll hang on to my money for a bit and save up.'",
             "D": "'Tickets for travel!"
        ]
-    }
+    },
      {
         "question": "You have an exam. How are you preparing?",
         "answers": [
@@ -47,7 +47,7 @@ quiz = [
             "C": "Start studying a few days in advance, you already know most of the material.",
             "D": "Ask the professor and your classmates what you should look at and focas on those topics."
         ]
-    }
+    },
      {
         "question": "What's your drink of choice?",
         "answers": [
@@ -56,7 +56,7 @@ quiz = [
             "C": "'I feel like I should drink more water.'",
             "D": "'Any kind of energy drink.'"
         ]
-    }
+    },
      {
         "question": "How do you distress after a long day?",
         "answers": [
@@ -74,7 +74,7 @@ quiz = [
             "C": "'Listening to music and drawing or reading.'",
             "D": "'Partying.'"
         ]
-    }
+    },
      {
         "question": "What's fantasy creature would you be?",
         "answers": [
