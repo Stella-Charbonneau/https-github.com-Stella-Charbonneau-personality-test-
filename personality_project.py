@@ -186,7 +186,7 @@ for letter, score in scores.items():
     percentages[letter] = percentage
 #then stores this calculated percentage into percentage dictionary (line 179)
     bar = "#" * round(percentage / 5)
-# (AI used) converst final percentage and makes whole number
+# (AI used) convert final percentage and makes whole number
     print(f"{letter}: {percentage:5.1f}%  {bar}")
 # (AI used) prints results in formated way, via printing decimal place and total width of provided space for following text
     print(f"   {personalities[letter]}")
