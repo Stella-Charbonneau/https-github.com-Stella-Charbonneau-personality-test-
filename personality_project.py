@@ -154,7 +154,7 @@ scores = {
 for i, item in enumerate(quiz, start=1):
 #quiz is a list, in which each element is a question (similarly to a dictionary),
 #i lets you loop through this list while keeping track of the index (i is the current index, item is the element, starting at element 1)
-# EX) when i = 2, 
+# EX) when i = 2, item is question 2
     print(f"Question{i}: {item['question']}")
     for letter, text in item["answers"].items():
         print(f"{letter}. {text}")
