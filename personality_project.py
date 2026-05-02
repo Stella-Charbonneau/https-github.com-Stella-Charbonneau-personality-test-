@@ -26,12 +26,12 @@ quiz = [
         "answers": {
             "A": "A touristy metropolitan area with fine dining and historical sites.",
             "B": "A cozy winter cabin with a group of people.",
-            "C": "A book on a beach recliner near the shore.",
+            "C": "Reading a book on a beach recliner near the shore.",
             "D": "An expensive mountain or tropical resort."
         }
     },
      {
-        "question": "You have a bit of extra money to spend, what will you use it for?",
+        "question": "You have a bit of extra money to spend, what will you use it on?",
         "answers": {
             "A": "'Maybe some new clothes, high end one if I can afford them.'",
             "B": "'Gift shopping, maybe pay off some bills.'",
