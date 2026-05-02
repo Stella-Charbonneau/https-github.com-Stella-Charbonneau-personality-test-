@@ -2,6 +2,7 @@
 # could do visualizations
 
 def personality_quiz():
+#AI used for understanding score dictionary formate and question/ answer formate
      scores = {
         "A": 0,
         "B": 0,
@@ -152,7 +153,7 @@ scores = {
 
 
 for i, item in enumerate(quiz, start=1):
-#quiz is a list, in which each element is a question (similarly to a dictionary),
+# (AI) quiz is a list, in which each element is a question (similarly to a dictionary),
 #i lets you loop through this list while keeping track of the index (i is the current index, item is the element, starting at element 1)
 # EX) when i = 2, item is question 2
     print(f"Question{i}: {item['question']}")
@@ -175,7 +176,7 @@ for i, item in enumerate(quiz, start=1):
 all_answers = len(quiz)
 print("Final personality percentages")
 
-#AI
+#
 percentages = {}
 #empty dictionary is created in order to store and calculate percentages of A, B, C, D
 for letter, score in scores.items():
@@ -187,7 +188,7 @@ for letter, score in scores.items():
     bar = "#" * round(percentage / 5)
 # (AI used) converst final percentage and makes whole number
     print(f"{letter}: {percentage:5.1f}%  {bar}")
-# (AI used) prints results in formated way, via printing decimal place and total width of provided space for associated personality
+# (AI used) prints results in formated way, via printing decimal place and total width of provided space for following text
     print(f"   {personalities[letter]}")
 # final printing of associated personality to letter
 
