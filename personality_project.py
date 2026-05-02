@@ -151,10 +151,10 @@ scores = {
     }
 
 
-for i, item in enumerate(quiz, start=1): #AI
-    print(f"Question{i}: {item['question']}") #prints actual question text and associated personality type
+for i, item in enumerate(quiz, start=1): 
+    print(f"Question{i}: {item['question']}")
     for letter, text in item["answers"].items():
-        print(f"{letter}. {text}") #print choice label and text
+        print(f"{letter}. {text}")
 
     while True: #while True loop for answers
         choice = input("Your choice (A/B/C/D): ").strip().upper() #allows user to input A, B, C or D as their choice
