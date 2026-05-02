@@ -156,7 +156,7 @@ for i, item in enumerate(quiz, start=1):
 #i lets you loop through this list while keeping track of the index (i is the current index, item is the element, starting at element 1)
 # EX) when i = 2, item is question 2
     print(f"Question{i}: {item['question']}")
-#prints question text via f string, via printing number of question
+#prints question text via f string, via printing number of question, as well as using question as key to access the current dictionary
     for letter, text in item["answers"].items():
         print(f"{letter}. {text}")
 
