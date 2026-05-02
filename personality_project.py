@@ -177,9 +177,13 @@ print("Final personality percentages")
 
 #AI
 percentages = {}
+#empty dictionary is created in order to store and calculate percentages of A, B, C, D
 for letter, score in scores.items():
+#scores utilizes items to get key value pairs (letter and associated score) as it loops through each letter
     percentage = (score / all_answers) * 100
+#calculates percentage of each letter
     percentages[letter] = percentage
+#then stores this calculated percentage into percentage dictionary
     bar = "#" * round(percentage / 5)   # simple text bar out of 20
     print(f"{letter}: {percentage:5.1f}%  {bar}")
     print(f"   {personalities[letter]}")
