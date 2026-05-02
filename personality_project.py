@@ -183,9 +183,11 @@ for letter, score in scores.items():
     percentage = (score / all_answers) * 100
 #calculates percentage of each letter
     percentages[letter] = percentage
-#then stores this calculated percentage into percentage dictionary
-    bar = "#" * round(percentage / 5)   # simple text bar out of 20
+#then stores this calculated percentage into percentage dictionary (line 179)
+    bar = "#" * round(percentage / 5)
+# (AI used) prints results in formated way, via printing decimal place and total width
     print(f"{letter}: {percentage:5.1f}%  {bar}")
+# (AI used) prints results in formated way, via printing decimal place and total width
     print(f"   {personalities[letter]}")
 
 # Run the quiz
