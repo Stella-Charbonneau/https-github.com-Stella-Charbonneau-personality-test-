@@ -184,7 +184,7 @@ for letter, score in scores.items():
     percentage = (score / all_answers) * 100
 #calculates percentage of each letter
     percentages[letter] = percentage
-#then stores this calculated percentage into percentage dictionary (line 179)
+#then stores this calculated percentage into percentage dictionary (line 180)
     bar = "#" * round(percentage / 5)
 # (AI used) convert final percentage, round to whole number and creates python short cut (#) in order to create string
     print(f"{letter}: {percentage:5.1f}%  {bar}")
