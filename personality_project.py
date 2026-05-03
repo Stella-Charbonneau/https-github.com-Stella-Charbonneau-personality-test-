@@ -188,7 +188,7 @@ for letter, score in scores.items():
     bar = "#" * round(percentage / 5)
 # (AI used) convert final percentage, round to whole number and creates python short cut (#) in order to create string
     print(f"{letter}: {percentage:5.1f}%  {bar}")
-# (AI used) prints results in formated way, via printing decimal place and total width of provided space for following text
+# (AI used) prints results in formated way, via printing decimal place and bar string
     print(f"   {personalities[letter]}")
 # final printing of associated personality to letter
 
