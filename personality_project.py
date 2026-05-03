@@ -159,7 +159,7 @@ for i, item in enumerate(quiz, start=1):
     print(f"Question{i}: {item['question']}")
 #prints question text via f string, via printing number of question, as well as using question as key to access the current dictionary
     for letter, text in item["answers"].items():
-# items returns key value pairs from the answer dictionary as it loops through each answer choice
+# (AI) items returns key value pairs from the answer dictionary as it loops through each answer choice
         print(f"{letter}. {text}")
 #prints each letter choice and following answer choice via f string
 
